@@ -5,7 +5,7 @@ const cors = require("cors");
 const http = require("http");
 const { Server } = require("socket.io");
 const authRoutes = require("./routes/authRoutes");
-const Message = require("./models/Message");
+const Message = require("./Models/Message");
 const userRoutes = require("./routes/userRoutes");
 
 const app = express();
