@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://sytemicaltruism-backend.onrender.com/api/auth";
 
 // User Signup
 export const signup = async (userData) => {
