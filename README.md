@@ -6,20 +6,20 @@ A Real-time Chat Application built with MERN stack & Socket.io featuring secure 
 
 <br>
 <h4>Folder Sttructure : </h4> 
-src/
-│── components/
-│   │── Auth/
-│   │   │── Login.jsx
-│   │   │── Signup.jsx
-│   │── Dashboard/
-│   │   │── Sidebar.jsx
-│   │   │── ChatWindow.jsx
-│   │── common/
-│   │   │── Navbar.jsx
-│── pages/
-│   │── Home.jsx
-│── App.js
-│── index.js
+src/<br>
+│── components/ <br>
+│   │── Auth<br>
+│   │   │── Login.jsx <br>
+│   │   │── Signup.jsx <br>
+│   │── Dashboard/ <br>
+│   │   │── Sidebar.jsx <br>
+│   │   │── ChatWindow.jsx <br>
+│   │── common/ <br>
+│   │   │── Navbar.jsx <br>
+│── pages/ <br>
+│   │── Home.jsx <br>
+│── App.js<br>
+│── index.js<br>
 
 <br><br> 
 <b>1️⃣ Project Setup (MERN Stack)</b> <hr>
