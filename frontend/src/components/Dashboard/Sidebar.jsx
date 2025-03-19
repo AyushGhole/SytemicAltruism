@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 import axios from "axios";
 
-const socket = io("https://sytemicaltruism-backend.onrender.com");
+const socket = io("https://sytemic-altruism-backend.vercel.app/");
 
 const Sidebar = ({ setSelectedChat }) => {
   const [users, setUsers] = useState([]);
