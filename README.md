@@ -2,6 +2,7 @@
 A Real-time Chat Application built with MERN stack & Socket.io featuring secure authentication, instant messaging, and real-time updates. Users can log in, chat with others, and see messages instantly. The app ensures smooth UI, responsive design, and seamless user experience with real-time message delivery. 🚀<br>
 <br>
 
+<img src="frontend/public/Screenshot%20(584).png" >
 
 <br>
  
