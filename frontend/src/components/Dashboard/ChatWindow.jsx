@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("https://sytemic-altruism-backend.vercel.app/");
+const socket = io("https://sytemicaltruism-backend.onrender.com");
 
 const ChatWindow = ({ selectedChat }) => {
   const [messages, setMessages] = useState([]);
