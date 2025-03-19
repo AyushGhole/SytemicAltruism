@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://sytemicaltruism-backend.onrender.com");
 
 const ChatWindow = ({ selectedChat }) => {
   const [messages, setMessages] = useState([]);
@@ -51,10 +51,10 @@ const ChatWindow = ({ selectedChat }) => {
         (data.sender.toLowerCase() === user.name.toLowerCase() &&
           data.receiver.toLowerCase() === selectedChat.name.toLowerCase())
       ) {
-        // 🛑 Prevent sender from adding duplicate messages
+        //  Prevent sender from adding duplicate messages
         if (data.sender.toLowerCase() === user.name.toLowerCase()) return;
 
-        console.log("✅ Message added to UI:", data);
+        console.log(" Message added to UI:", data);
         setMessages((prev) => [...prev, data]); // Append message to UI
       }
     });
