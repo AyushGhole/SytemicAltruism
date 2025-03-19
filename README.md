@@ -40,7 +40,9 @@ A Real-time Chat Application built with MERN stack & Socket.io featuring secure 
 <li>Store online users in a Map.</li>
 </ul>
 <br>
-<b>3️⃣ Frontend Development (React & Socket.io-client)</b> <br>
+
+<b>3️⃣ Frontend Development (React & Socket.io-client)</b> 
+<hr>
 <br>
 <b>✅ Setup React with Routing (App.jsx)</b> <br>
 <ul>
