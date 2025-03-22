@@ -18,7 +18,7 @@ const Sidebar = ({ setSelectedChat }) => {
       try {
         console.log("Fetching users for:", loggedInUser.id);
         const res = await axios.get(
-          `https://sytemicaltruism.onrender.com/api/users/${loggedInUser.id}`
+          `https://sytemicaltruism-backend.onrender.com/api/users/${loggedInUser.id}`
         );
         console.log("Users fetched:", res.data);
         setUsers(res.data);
